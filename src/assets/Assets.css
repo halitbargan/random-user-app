@@ -18,8 +18,9 @@ body {
 
 .main {
     border: 1px solid blue;
-    padding: 2rem;
-    box-shadow: 5px 5px #22577E, 10px 10px rgb(129, 188, 236), 15px 15px rgb(207, 228, 236);
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 5px 5px #22577E, 10px 10px rgb(142, 194, 241), 15px 15px rgb(207, 228, 236);
     background-color: rgb(135, 158, 133);
 }
 
@@ -40,7 +41,7 @@ img {
     border-radius: 50%;
 }
 
-.section2 {
+.section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,22 +57,20 @@ img {
 }
 
 .button {
-    margin: 10px;
-    padding: 15px 45px;
+    margin: 3rem;
+    padding: 10px 30px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
     box-shadow: 0 0 30px #eee;
-    border-radius: 10px;
+    border-radius: 15px;
     display: block;
-    margin: 3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 .button:hover {
-    background-position: right center;
     color: #fff;
     padding: 15px 50px;
 }

@@ -66,7 +66,7 @@ function App() {
               </span>
             </nav>
           </section>
-          <section className="section2">
+          <section className="section">
             <nav className="age">Age : {persons[0].dob.age}</nav>
             <nav className="register">
               Register Date : {persons[0].registered.date.slice(0, 10)}
